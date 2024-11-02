@@ -24,15 +24,5 @@ int main(const int argc, char** argv)
 
     handler.listen("0.0.0.0", 8083);
 
-    // cv::Mat image = cv::imread(image_path);
-
-    // if (image.empty()) {
-    // std::cerr << "ERROR: image is empty" << std::endl;
-    // return 1;
-    // }
-
-    // inference.RunInference(image);
-
-
     return 0;
 }
